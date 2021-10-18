@@ -1,0 +1,19 @@
+  -- INFORMAÇÕES DO BITCOIN -- BTC em BRL
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+* Hoje (18.10.2021): 341.667,57 Real brasileiro [18.10.2021]
+
+* Fechamento Anterior: 335.050
+
+* Variação em 1 ano: 430,28%
+
+* Compra: 344.406
+
+* Venda: 345.000
+
+* Var. Diária: 325.689 - 345.000
+
+* Var. 52 semanas: 64.820 - 373.800
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+FONTE: https://br.investing.com/crypto/bitcoin/btc-brl

@@ -1,0 +1,17 @@
+-- INFORMAÇÕES DO EURO -- EUR em BRL
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+* Hoje (18.10.2021): 6,41 Real brasileiro 
+
+* Fechamento Anterior: 6,3346
+
+* Compra/Venda: 6,4015 / 6,4043
+
+* Var. Diária: 6,3194 - 6,4331
+
+* Variação em 1 ano: -4,32%
+
+* Var. 52 semanas: 5,8444 - 7,0013
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+https://br.investing.com/currencies/eur-brl

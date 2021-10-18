@@ -1,0 +1,19 @@
+  -- INFORMAÇÕES DO DOLAR AMERICANO -- USD em BRL
+  
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+* Hoje (18/10/2021): 5,53 Real brasileiro
+
+* Fechamento Anterior: 5,4614
+
+* Variação em 1 ano: -3,21%
+
+* Compra: 5,527
+
+* Venda: 5,5279
+
+* Var. Diária: 5,4576 - 5,5422
+
+* Var. 52 semanas: 4,8929 - 5,8787
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+FONTE: https://br.investing.com/currencies/usd-brl
