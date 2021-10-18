@@ -1,39 +1,26 @@
 import socket
-import requests
-import json
-
-cotacoes = requests.get("https://economia.awesomeapi.com.br/last/USD-BRL,EUR-BRL,BTC-BRL")
-cotacoes = cotacoes.json()
-cotacao_dolar = cotacoes['USDBRL'] ['bid']
-cotacao_euro = cotacoes['EURBRL'] ['bid']
-cotacao_bitcoins = cotacoes['BTCBRL'] ['bid']
 
 client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+client.connect(("localhost", 7777))
+print("+------------------------+")
+print("| Conectado ao servidor. |")
+print("+------------------------+")
+print("Opções disponíveis: (digitar o formato .arquivo no final)")
+print("1 - Dolar")
+print("2 - Euro")
+print("3 - Bitcoin")
 
-client.connect(('localhost', 7777))
-print('Conectado!!\n')
+arquivo = str(input("-> " ))
+#Ao escolher o arquivo, deve ser definido o caminho da pasta do cliente, para que não seja
+#enviada para a pasta raíz "CotacaoMoedas".
+arquivo = "C:\\Users\\Alessandra\\Desktop\\CotacaoMoedas-main\\CotacaoMoedas\\Client\\" + arquivo
+client.send(arquivo.encode())
 
+with open(arquivo, "wb") as file:
+    while True:
+        data = client.recv(1000000)
+        if not data:
+            break
+        file.write(data)
 
-while True:
-    print("------COTAÇÃO DE MOEDAS--------")
-    print("1 - Cotação do Dólar")
-    print("2 - Cotação do Euro")
-    print("3 - Cotação do Bitcoins")
-    print("0 - Não desejo mais utilizar os serviços")
-
-    opt = int(input("Digite a opção desejada: "))
-
-    if(opt == 0):
-        print("Fechando conexão!")
-        break
-    elif (opt == 1):
-        print(cotacao_dolar)
-
-    elif (opt == 2):
-        print(cotacao_euro)
-
-    elif (opt == 3):
-        print(cotacao_bitcoins)
-    else:
-        print("Informação não localizada.")
-
+print(f" {arquivo} Recebido na pasta 'Client'")
